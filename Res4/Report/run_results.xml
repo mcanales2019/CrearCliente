@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The "ValidaEjecutar"  object was not found in the Object Repository.</Name>
+    <ErrorText>The "ValidaEjecutar"  object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;ValidaEjecutar&amp;quot;  object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (5): &amp;quot;While  JavaWindow(&amp;quot;ValidaEjecutar&amp;quot;).Exist = false&amp;quot;. </Description>
+    <StartTime>2022-08-23 14:09:47</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Login]]></ModuleName>
+          <FileName><![CDATA[Login]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[While  JavaWindow("ValidaEjecutar").Exist = false]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>82b8c8ad05484be4966028db59d3ab62</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4ba5f7ff-da49-4534-8ebb-19d4b22b6b6a.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-08-23 14:10:38</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>73758e2d801d4a3086327aed6eac9054</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2022-08-23 14:09:47</StartTime>
+    <Duration>51</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>bd9c570bfd2c47a19a12aa0ef8bb1136</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-08-23 14:09:47</StartTime>
+    <Duration>51</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>3015716361084574b771fe531f6a126b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-08-23 14:10:38</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>fcc9bb0d013f4efe81bb4605b89f714d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>CrearCliente</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-08-23 14:09:46</StartTime>
+    <Duration>52</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>544ebde5ff1f4070a45db004ab793b89</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>español (Chile)</Locale>
+      <User>Marco</User>
+      <CpuInfo>11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz</CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>16149</TotalMemory>
+      <HostName>SERVER-GAMER</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2022-08-23 14:09:46</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
